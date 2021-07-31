@@ -7,7 +7,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
@@ -17,12 +17,10 @@ npm run build
 
 ### Lints and fixes files
 ```
-npm run lint
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### 脚手架搭建的vue3
-
-vue博客项目联动vue3组件库搭建
+### vite搭建vue3
+vue3组件库联动搭建博客项目
