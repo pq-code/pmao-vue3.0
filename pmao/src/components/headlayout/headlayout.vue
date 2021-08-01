@@ -1,16 +1,17 @@
 <template>
-    <div>
-      <p-link herf="/home" type taget="-blank">首页</p-link>
+    <div class="head">
+      <a href="/home">首页</a>
+      <p-link href="https://www.bilibili.com/video/BV1cf4y1e7TD?p=6" type="p-head-link">首页</p-link>
+      <p-link href="blog" taget="-blank">博客</p-link>
+      <p-link href="Components" taget="-blank">组件库</p-link>
+      <p-link href="Components" taget="-blank">图库</p-link>
     </div>
 </template>
 
 <script>
-import Plink from "../../../modules/pmao-ui/p-link/p-link.vue"
+
 export default {
   name: 'headlayout',
-  components: {
-    Plink,
-  }
 }
 
 </script>
