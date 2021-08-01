@@ -1,18 +1,16 @@
 <template>
- <heardlayout></heardlayout>
-
+  <headlayout></headlayout>
 </template>
 
-<script>
-import heardlayout from "@/components/heardlayout/heardlayout";
+<script lang=ts>
+import headlayout from "../../components/headlayout/headlayout.vue"
 export default {
-  name: "home.vue",
-  components: {
-    heardlayout,
-  },
+    components: {
+    headlayout,
+  }
 }
+
 </script>
 
-<style scoped>
-
+<style lang='scss' scoped>
 </style>
