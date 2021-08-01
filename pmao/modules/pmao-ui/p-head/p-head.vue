@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name:"Pheader",
+    name:"Phead",
     post:{
         href:String,
         type:String,
@@ -21,7 +21,7 @@ export default {
 }
 
 </script>
-<style lang='scss' scoped>
+<style>
 .p-link{
   color: #000000;
   text-decoration:none;

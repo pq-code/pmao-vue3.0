@@ -1,9 +1,9 @@
-import Pheader from './pmao-ui/p-head/p-head.vue';
-import plink from './pmao-ui/p-link/p-link.vue';
+import Phead from './p-head/p-head.vue';
+import plink from './p-link/p-link.vue';
 
 //组件集合
 const COMPONENTS = [
-    Pheader,
+    Phead,
     plink,
 ];
 

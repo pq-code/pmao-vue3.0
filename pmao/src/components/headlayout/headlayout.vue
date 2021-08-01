@@ -1,32 +1,18 @@
 <template>
-  <!-- <div class="head-universal">
-    <div class="head">
-      <div class="head-grid-left">
-        <p-link
-            herf="/home"
-            type=""
-            taget="-blank"
-        >首页</p-link>
-      </div>
-      </div>
+    <div>
+      <p-link herf="/home" type taget="-blank">首页</p-link>
     </div>
-  </div>-->
-  <p-head>
-    <p-link herf="/home" type taget="-blank">首页</p-link>
-  </p-head>
 </template>
 
 <script>
-import Plink from "../modules/my-ui/link"
+import Plink from "../../../modules/pmao-ui/p-link/p-link.vue"
 export default {
   name: 'headlayout',
   components: {
     Plink,
   }
 }
-setup(){
 
-}
 </script>
 <style>
 .head {
