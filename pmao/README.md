@@ -22,7 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### 脚手架搭建的vue3
-
-vue博客项目联动vue3组件库搭建
