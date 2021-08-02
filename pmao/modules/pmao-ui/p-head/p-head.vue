@@ -1,9 +1,9 @@
 <!--head-->
 <template>
   <a
-  :href="href"
-  :target="target"
-  :class="['head-grid-a',type]"
+    :href='href'
+    :target="target"
+    :class="['p-head-link',type]"
   >
   <slot></slot>
   </a>
@@ -27,7 +27,7 @@ export default {
   text-decoration:none;
 
 }
-.head-grid-a{
+.p-head-link{
   display:block;
   font-size: 15px;
   color: #000000;

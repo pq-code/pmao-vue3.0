@@ -1,4 +1,4 @@
-<!--head-->
+<!--p-link-->
 <template>
   <a
     :href="href"
