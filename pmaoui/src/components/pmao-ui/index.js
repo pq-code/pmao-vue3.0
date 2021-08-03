@@ -1,9 +1,9 @@
-import Phead from './p-head/p-head.vue';
-import plink from './p-link/p-link.vue';
+// import Phead from './p-head/p-head.vue';
+import plink from './p-link/index';
 
 //组件集合
 const COMPONENTS = [
-    Phead,
+    // Phead,
     plink,
 ];
 
