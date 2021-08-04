@@ -1,13 +1,13 @@
 <template>
-  <header
+  <div
     :class="['phead',type]"
     >
-    <div
-      :v-for="index"
-      :class="['phead-piece',type]">
+    <div :v-for="index">
+      <p-head-item>
         <slot></slot>
+      </p-head-item>
     </div>
-  </header>
+  </div>
 </template>
 
 <script>
