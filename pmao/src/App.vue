@@ -1,7 +1,8 @@
 <template>
 <router-view />
+<div>PMAOUI组件库</div>
 </template>
 
-<style lang="stylus">
+<style>
 
 </style>
