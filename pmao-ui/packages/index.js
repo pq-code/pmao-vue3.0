@@ -5,6 +5,7 @@ import Pcontainer from './p-container'
 import Pheader from './p-head'
 import Pmain from './p-main'
 import Paside from  './p-aside'
+
 // 存储组件列表
 const components = [
     Pcontainer,
@@ -29,6 +30,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
+    version: '0.0.1',
     // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
     install,
     // 以下是具体的组件列表
