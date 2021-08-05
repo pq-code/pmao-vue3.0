@@ -1,15 +1,13 @@
 <template>
-  <li
-      :v-for="index"
-  >
+  <main class="el-main">
     <slot></slot>
-  </li>
+  </main>
 </template>
 
 <script>
 export default {
-  name: "Pheaditem",
-  componentName: "Pheaditem",
+  name: 'PMain',
+  componentName: 'PMain'
 }
 </script>
 

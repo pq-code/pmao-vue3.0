@@ -11,7 +11,8 @@
 
 <script>
 export default {
-  name:"plink",
+  name:"Plink",
+  componentName: "Phead",
   props:{
     href: String,
     type: String,

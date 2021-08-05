@@ -1,15 +1,13 @@
 <template>
-  <li
-      :v-for="index"
-  >
+  <section class="p-container" >
     <slot></slot>
-  </li>
+  </section>
 </template>
 
 <script>
 export default {
-  name: "Pheaditem",
-  componentName: "Pheaditem",
+  name: "Pcontainer",
+  componentName: 'ElContainer',
 }
 </script>
 
