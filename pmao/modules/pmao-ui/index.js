@@ -7,12 +7,14 @@ const COMPONENTS = [
     plink,
 ];
 
-const PMaoUI = {}
 
-PMaoUI.install = function (Vue) {
+const install = function (Vue) {
     // vue.component(Pheader.name,Pheader);
     COMPONENTS.forEach((component) =>{
-        Vue.component((component.name,component));
+        Vue.component(component.name,component);
     })
 }
-export default {PMaoUI};
+export default {
+    install,
+    plink
+};
