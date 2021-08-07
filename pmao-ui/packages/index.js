@@ -1,3 +1,5 @@
+
+import Vue from "vue";
 // 导入组件
 import Plink from './p-link'
 import Phead from './p-head'
