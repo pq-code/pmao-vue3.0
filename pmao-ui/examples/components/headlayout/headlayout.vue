@@ -7,10 +7,10 @@
       <pheaditem index="2">
         <Plink href="/home" type="p-head-link">首页</Plink>
       </pheaditem>
-      <pheaditem index="2">
+      <pheaditem index="3">
         <Plink href="/home" type="p-head-link">组件库</Plink>
       </pheaditem>
-      <pheaditem index="2">
+      <pheaditem index="4">
         <Plink href="/home" type="p-head-link">博客</Plink>
       </pheaditem>
     </phead>
