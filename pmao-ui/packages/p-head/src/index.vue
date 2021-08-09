@@ -2,9 +2,7 @@
   <div
     :class="['phead',type]"
     >
-      <p-head-item>
         <slot></slot>
-      </p-head-item>
   </div>
 </template>
 
@@ -21,17 +19,12 @@ export default {
 
 <style >
 .phead{
-  height: 64px;
-  background-color: #ffffff;
+  margin: 0 auto ;
+  display:inline-grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 600px;
+  height: 65px;
+  float: left;
 }
-.phead-piece{
-  font-size: 15px;
-  color: #000000;
-  width: 100%;
-  text-decoration:none;
-  line-height: 30px;
-}
-
-
 
 </style>

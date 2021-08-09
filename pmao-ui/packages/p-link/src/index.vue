@@ -31,9 +31,11 @@ export default {
   color: #000000;
 }
 .p-head-link {
+  display:block;
   font-size: 15px;
   color: #000000;
   text-decoration:none;
+  margin: 20px auto ;
   line-height: 30px;
 }
 

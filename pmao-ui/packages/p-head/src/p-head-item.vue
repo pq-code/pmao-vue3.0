@@ -1,6 +1,6 @@
 <template>
   <li
-      :v-for="index"
+      :class="['p-head-item',type]"
   >
     <slot></slot>
   </li>
@@ -13,6 +13,12 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style >
+.p-head-item{
+  /*float: left;*/
+  list-style: none;
+  background-color: #ffffff;
+  line-height:31px;
+  height: 65px;
+}
 </style>

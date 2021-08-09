@@ -1,16 +1,18 @@
 
 import Vue from "vue";
 // 导入组件
-import Plink from './p-link'
-import Phead from './p-head'
-import Pcontainer from './p-container'
-import Pheader from './p-head'
-import Pmain from './p-main'
-import Paside from  './p-aside'
+import Plink from './p-link/src/index'
+import Phead from './p-head/src/index'
+import Pheaditem from './p-head/src/p-head-item'
+import Pcontainer from './p-container/src/index'
+import Pheader from './p-header/src/index'
+import Pmain from './p-main/src/index'
+import Paside from  './p-aside/src/index'
 
 // 存储组件列表
 const components = [
     Pcontainer,
+    Pheaditem,
     Pheader,
     Paside,
     Pmain,
@@ -23,7 +25,8 @@ const install = function (Vue) {
     // 判断是否安装
     if (install.installed) return
     // 遍历注册全局组件
-    components.map(component => Vue.component(component.name, component))
+    components.map(component => Vue.component(component.name, component));
+
 }
 
 // 判断是否是直接引入文件
