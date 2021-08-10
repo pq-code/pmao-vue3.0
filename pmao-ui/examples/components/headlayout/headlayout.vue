@@ -5,7 +5,7 @@
         <Plink href="/home" type="p-head-link"><img src="../../assets/Icon/iconfangp.png" height="35" width="35"/></Plink>
       </pheaditem>
       <pheaditem index="2">
-        <Plink href="/home" type="p-head-link">首页123大哈佛哈哈</Plink>
+        <Plink href="/home" type="p-head-link">首页</Plink>
       </pheaditem>
       <pheaditem index="3">
         <Plink href="/home" type="p-head-link">组件库</Plink>
@@ -20,6 +20,10 @@
         <Plink href="/home" type="p-head-link">工具库</Plink>
       </pheaditem>
     </phead>
+
+    <pinput v-model="input" placeholder="搜索">
+
+    </pinput>
   </div>
 </template>
 
@@ -28,6 +32,12 @@
 export default {
   name: 'headlayout',
   componentName: "headlayout",
+
+  data(){
+    return {
+      input: ''
+    }
+  }
 }
 
 </script>

@@ -8,6 +8,8 @@ import Pcontainer from './p-container/src/index'
 import Pheader from './p-header/src/index'
 import Pmain from './p-main/src/index'
 import Paside from  './p-aside/src/index'
+import pinput from  './p-input/src/p-input'
+import pbutton from  './p-button/src/p-button'
 
 // 存储组件列表
 const components = [
@@ -18,6 +20,8 @@ const components = [
     Pmain,
     Plink,
     Phead,
+    pinput,
+    pbutton,
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -45,5 +49,7 @@ export default {
     Paside,
     Plink,
     Phead,
+    pinput,
+    pbutton,
 
 }
