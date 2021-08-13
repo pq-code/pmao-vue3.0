@@ -2,7 +2,7 @@
   <div class="head">
     <phead>
       <pheaditem index="1">
-        <Plink href="/home" type="p-head-link"><img src="../../assets/Icon/iconfangp.png" height="35" width="35"/></Plink>
+        <Plink href="/home" type="p-head-link-img" styple="mo"><img src="../../assets/Icon/iconfangp.png" height="36" width="36"/></Plink>
       </pheaditem>
       <pheaditem index="2">
         <Plink href="/home" type="p-head-link">首页</Plink>
@@ -20,11 +20,11 @@
         <Plink href="/home" type="p-head-link">工具库</Plink>
       </pheaditem>
     </phead>
-    {{input}}
+    {{inputs}}
     <pinput
-        placeholder="搜索"
-        onmouseover="bigImg(this)"
-        onmouseout="normalImg(this)">
+        v-model="inputs"
+        placeholder="搜索">
+      <pbutton>搜索</pbutton>
     </pinput>
   </div>
 </template>
@@ -36,7 +36,7 @@ export default {
   componentName: "headlayout",
   data() {
     return{
-      input: ''
+      inputs: '1'
     }
   },
   props: {
@@ -44,7 +44,7 @@ export default {
   },
   setup(props) {
     let input = ''
-    const bigImg = computed(() => console.log('--------------------', input))
+    const bigImg = computed(() => console.log('--------------', input))
     return {
       bigImg
     }
@@ -55,7 +55,8 @@ export default {
 <style>
 .head {
   width: 75%;
-  height: 65px;
+  height: 66px;
   margin: 0 auto ;
+  background-color: #F5F5F7;
 }
 </style>
