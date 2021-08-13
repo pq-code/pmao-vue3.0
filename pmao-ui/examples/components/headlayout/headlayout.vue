@@ -20,11 +20,10 @@
         <Plink href="/home" type="p-head-link">工具库</Plink>
       </pheaditem>
     </phead>
-    {{inputs}}
     <pinput
+        refs="true"
         v-model="inputs"
         placeholder="搜索">
-      <pbutton>搜索</pbutton>
     </pinput>
   </div>
 </template>

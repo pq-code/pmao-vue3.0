@@ -1,6 +1,8 @@
 <template>
   {{input}}
     <input
+        :refs="inp"
+        ref="inputs"
         v-model.lazy="input"
         :class="['p-input',type]"
         :placeholder ='placeholder'
@@ -9,6 +11,8 @@
 </template>
 
 <script>
+import {onMounted, refs} from "vue";
+
 export default {
   name: "pinput",
   data() {
@@ -17,11 +21,16 @@ export default {
     }
   },
   props:{
+    inp: String,
     placeholder: String,
     type: String,
   },
   setup(props) {
-    console.log(props.input)
+    onMounted(() => {
+      if(props.inp){
+        this.$refs.inputs.focus()
+      }
+    })
   }
 }
 </script>
