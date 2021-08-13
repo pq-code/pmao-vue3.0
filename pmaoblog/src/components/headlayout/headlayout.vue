@@ -2,7 +2,7 @@
   <div class="head">
     <phead>
       <pheaditem index="1">
-        <Plink href="/home" type="p-head-link"><img src="../../assets/Icon/iconfangp.png" height="35" width="35"/></Plink>
+        <Plink href="/home" type="p-head-link"><img src="../../assets/assets/Icon/iconfangp.png" height="35" width="35"/></Plink>
       </pheaditem>
       <pheaditem index="2">
         <Plink href="/home" type="p-head-link">首页</Plink>
@@ -20,35 +20,20 @@
         <Plink href="/home" type="p-head-link">工具库</Plink>
       </pheaditem>
     </phead>
-    {{input}}
-    <pinput
-        placeholder="搜索"
-        onmouseover="bigImg(this)"
-        onmouseout="normalImg(this)">
-    </pinput>
   </div>
 </template>
 
 <script>
 import { defineComponent, computed, ref, PropType } from 'vue'
+import Plink from "../../../packages/p-link/src";
 export default {
   name: 'headlayout',
+  components: {Plink},
   componentName: "headlayout",
-  data() {
-    return{
-      input: ''
-    }
-  },
   props: {
     title: String
   },
-  setup(props) {
-    let input = ''
-    const bigImg = computed(() => console.log('--------------------', input))
-    return {
-      bigImg
-    }
-  },
+
 }
 
 </script>

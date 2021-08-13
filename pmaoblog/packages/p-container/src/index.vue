@@ -1,19 +1,16 @@
 <template>
-  <button
-      :class="['p-button',type]"
-  >
+  <section class="p-container" >
     <slot></slot>
-  </button>
+  </section>
 </template>
 
 <script>
 export default {
-  name: "pbutton"
+  name: "Pcontainer",
+  componentName: 'ElContainer',
 }
 </script>
 
 <style scoped>
-.p-button{
 
-}
 </style>

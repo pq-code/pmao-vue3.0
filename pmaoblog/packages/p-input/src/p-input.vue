@@ -1,8 +1,7 @@
 <template>
-  {{input}}
     <input
-        v-model.lazy="input"
         :class="['p-input',type]"
+        :input="input"
         :placeholder ='placeholder'
     />
     <slot></slot>
@@ -11,23 +10,13 @@
 <script>
 export default {
   name: "pinput",
-  data() {
-    return {
-      input: ''
-    }
-  },
   props:{
+    input: String,
     placeholder: String,
     type: String,
-  },
-  setup(props) {
-    console.log(props.input)
   }
 }
 </script>
-
-
-
 
 <style scoped>
 .p-input{
