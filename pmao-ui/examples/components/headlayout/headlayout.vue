@@ -25,13 +25,20 @@
         v-model="inputs"
         placeholder="搜索">
     </pinput>
+    <pselector
+        placeholder="下拉选择"
+    >
+
+    </pselector>
   </div>
 </template>
 
 <script>
 import { defineComponent, computed, ref, PropType } from 'vue'
+import Pselector from "../../../packages/p-selector/src";
 export default {
   name: 'headlayout',
+  components: {Pselector},
   componentName: "headlayout",
   data() {
     return{

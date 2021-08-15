@@ -46,6 +46,7 @@ export default {
   padding: 0 15px;
   display: inline-block;
   border: 2px solid #dcdfe6;
+  background-color: #F5F5F7;
   transition: border-color .2s cubic-bezier(.645,.045,.355,1);
 
 }
