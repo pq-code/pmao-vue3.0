@@ -1,25 +1,7 @@
-# pmao-ui
+# pmao-ui vue3.0
 
-## Project setup
+##这是一个Vue3.0UI组件库
+## Install this project
 ```
-npm install
+npm i pmao-ui
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-[comment]: <> (### Customize configuration)
-
-[comment]: <> (See [Configuration Reference]&#40;https://cli.vuejs.org/config/&#41;.)
