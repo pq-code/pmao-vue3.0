@@ -44,10 +44,12 @@ export default {
        }
     }
     .placeholder {
-      position: relative;
-      left: 70px;
-      top: 0px;
-      color: #757679;
+      position: absolute;
+      left: 76px;
+      top: 8px;
+      font-size: 12px;
+      float: none;
+      color: #87898d;
 
     }
 

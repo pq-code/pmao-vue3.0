@@ -3,17 +3,24 @@
     <SelectorInput
     :placeholder="placeholder"
     />
+    <Selectoroption
+    :options="options"
+    >
+    </Selectoroption>
   </div>
 </template>
 
 <script>
 import SelectorInput from "./input";
+import Selectoroption from "./option";
 import focus from '../directives/focus'
+
 export default {
   name: "pselector",
-  components: {SelectorInput},
+  components: {Selectoroption, SelectorInput},
   props: {
-    placeholder:String,
+    placeholder: String,
+    options: Array,
   },
   directives: {
     focus,
