@@ -14,7 +14,7 @@ export default {
   props: {
     placeholder: {
       type: String,
-      default: '请选择',
+      default: '请选择1',
     }
   }
 }
