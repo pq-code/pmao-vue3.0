@@ -1,17 +1,16 @@
 {
   "name": "pmao-ui",
   "version": "0.1.0",
-  "description": "Vue3 UI组件库",
-  "main": "lib/.umd.min.js",
-  "keyword": ["pmao-ui" ,"blog", "Vue"],
-  "author": "Pq",
   "private": false,
+  "description": "Vue3 UI组件库",
+  "author": "Pq",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name pmao-ui --dest lib packages/index.js"
   },
+  "main": "lib/.umd.min.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
@@ -34,8 +33,13 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
+    "node-scss": "^7.0.3",
     "prettier": "^2.2.1",
-    "typescript": "~4.1.5"
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "style-resources-loader": "^1.4.1",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5"
   },
   "eslintConfig": {
     "root": true,
@@ -58,5 +62,10 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "keyword": [
+    "pmao-ui",
+    "blog",
+    "Vue"
   ]
 }
