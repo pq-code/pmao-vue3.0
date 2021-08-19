@@ -44,9 +44,11 @@ export default {
        }
     }
     .placeholder {
-      left: 150px;
-      top: 8px;
-      color: #1D1D1F;
+      position: relative;
+      left: 70px;
+      top: 0px;
+      color: #757679;
+
     }
 
     .inconfont {
