@@ -1,5 +1,5 @@
 <template>
-  <div class="selector">
+  <div class="selector" v-focus>
     <SelectorInput
     :placeholder="placeholder"
     />
@@ -8,11 +8,15 @@
 
 <script>
 import SelectorInput from "./input";
+import focus from '../directives/focus'
 export default {
   name: "pselector",
   components: {SelectorInput},
   props: {
     placeholder:String,
+  },
+  directives: {
+    focus,
   }
 }
 </script>

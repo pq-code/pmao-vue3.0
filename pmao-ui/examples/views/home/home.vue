@@ -3,7 +3,11 @@
     <headlayout></headlayout>
   </pheader>
   <pmain>
+    <pselector
+        placeholder="下拉选择"
+    >
 
+    </pselector>
   </pmain>
 
 </template>
