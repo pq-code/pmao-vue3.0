@@ -5,7 +5,8 @@
   <pmain>
 
     <pselector
-        placeholder="下拉选择">
+        placeholder="下拉选择"
+    >
     </pselector>
   </pmain>
 

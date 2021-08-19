@@ -5,8 +5,8 @@
         type="text"
         class="input"
     />
+    <span class="iconfont icon-search"></span>
   </div>
-  <span class="inconfont "></span>
 </template>
 
 <script>
@@ -53,14 +53,17 @@ export default {
 
     }
 
-    .inconfont {
-      right: 15px;
-      top: 12px;
-      color: #F5F5F7;
-
+    .iconfont {
+      position: absolute;
+      left: 210px;
+      top: 6px;
+      font-size: 22px;
+      color: #707276;
       &.icon-search {
-         font-size: 22px;
-         top: 8px;
+        font-size: 22px;
+        left: 210px;
+        top: 6px;
+        color: #707276;
        }
     }
   }

@@ -25,8 +25,11 @@ export default {
 
 <style scoped>
   .selector-option {
+    /*display: none;*/
+    position: absolute;
+    left: 0;
+    top: 48px;
     width: 100%;
-    height: 38px;
   }
   .option-item {
 
