@@ -1,6 +1,7 @@
 export default {
     mounted (el) {
-        const oSelectorIput = el.querySelector('.slectorInput');
+        const oSelectorIput = el.querySelector('.slectorInput'),
+              oSelectorOption = el.querySelector('.selector-option');
 
         const oInput = oSelectorIput.querySelector('input'),
               oPlacHolder = oSelectorIput.querySelector('label'),
@@ -11,11 +12,13 @@ export default {
         const ss = function () {
             oPlacHolder.style.display = 'none';
             oIcon.className = 'iconfont icon-arrow-down';
+            oSelectorOption.style.display = 'block'
         }
 
         const ssr = function () {
             oPlacHolder.style.display = 'block';
             oIcon.className = 'iconfont icon-search';
+            oSelectorOption.style.display = 'none'
         }
 
         oInput.addEventListener('focus', function (){

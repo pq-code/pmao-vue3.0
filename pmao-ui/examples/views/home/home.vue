@@ -6,6 +6,7 @@
 
     <pselector
         placeholder="下拉选择"
+        options="options"
     >
     </pselector>
   </pmain>

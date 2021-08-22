@@ -25,12 +25,13 @@ export default {
   .slectorInput{
     position: relative;
     width: 100%;
-    height: 38px;
+    height: 32px;
 
     .input {
+      width: 100%;
       box-sizing: border-box;
       background-color: #F5F5F7;
-      border: 2px solid #dcdfe6;
+      border: 1px solid #dcdfe6;
       border-radius: 6px;
       transition: all .2s linear;
       line-height: 30px;
@@ -45,24 +46,23 @@ export default {
     }
     .placeholder {
       position: absolute;
-      left: 76px;
-      top: 8px;
-      font-size: 12px;
+      top: 6px;
+      left: 14px;
+      font-size: 14px;
       float: none;
       color: #87898d;
-
     }
 
     .iconfont {
-      position: absolute;
-      left: 210px;
-      top: 6px;
+      position: relative;
+      left: 80px;
+      top: -28px;
       font-size: 22px;
       color: #707276;
       &.icon-search {
         font-size: 22px;
-        left: 210px;
-        top: 6px;
+        left: 80px;
+        top: -28px;
         color: #707276;
        }
     }

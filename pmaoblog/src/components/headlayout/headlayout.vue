@@ -25,10 +25,8 @@
 
 <script>
 import { defineComponent, computed, ref, PropType } from 'vue'
-import Plink from "../../../packages/p-link/src";
 export default {
   name: 'headlayout',
-  components: {Plink},
   componentName: "headlayout",
   props: {
     title: String

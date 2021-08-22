@@ -31,6 +31,8 @@ export default {
 <style scoped>
 .selector{
   position: absolute;
-  width: 300px;
+  width: 200px;
+  height: 34px;
+  margin: 0 auto;
 }
 </style>

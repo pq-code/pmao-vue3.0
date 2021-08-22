@@ -2,11 +2,11 @@
   <div class="selector-option">
     <div
       class="option-item"
-      v-for="item of options"
-      :key="item.value"
-      :label="item.label"
+      v-for="(item,  index) of options"
+      :key="index"
       :value="item.value"
     >
+      {{ item.label }}
     </div>
   </div>
 </template>
@@ -15,23 +15,45 @@
 export default {
   name: "Selectoroption",
   props: {
-    options:[{
-      value: '没有内容',
-      label: '没有内容',
-    }]
+    options: {
+      type: Array,
+      default() {
+        return [{
+          value: '选项1',
+          label: '没有内容',
+        }, {
+          value: '选项1',
+          label: '没有内容',
+        }, {
+          value: '选项1',
+          label: '没有内容',
+        }]
+      }
+
+    }
   }
 }
 </script>
 
 <style scoped>
   .selector-option {
-    /*display: none;*/
+    display: none;
     position: absolute;
-    left: 0;
-    top: 48px;
+    top: 34px;
     width: 100%;
+    height: 224px;
+    border: 1px solid #dcdfe6;
+    box-shadow: 0 0 10px #dfdfe5;
+    background-color: #F5F5F7;
+    cursor: pointer;
   }
   .option-item {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    margin: 10px 0;
+    transition: background-color .2s linear;
 
   }
 </style>
