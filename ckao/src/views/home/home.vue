@@ -9,7 +9,6 @@
     >
     </pselector>
   </pmain>
-
 </template>
 
 <script>

@@ -31,6 +31,6 @@ module.exports = {
   //   },
   // },
 };
-module.exports = {
-  lintOnSave: false
-}
+// module.exports = {
+//   lintOnSave: false
+// }
