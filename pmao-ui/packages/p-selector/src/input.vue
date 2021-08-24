@@ -4,6 +4,7 @@
     <input
         type="text"
         class="input"
+        :value="value"
     />
     <span class="iconfont icon-search"></span>
   </div>
@@ -16,6 +17,10 @@ export default {
     placeholder: {
       type: String,
       default: '请选择',
+    },
+    value: {
+      type: String,
+      default: '',
     }
   }
 }
@@ -40,8 +45,8 @@ export default {
       display: inline-block;
 
       &:focus {
-        border-color: #dcdfe6;
-        box-shadow: 0 0 3px #dcdfe6;
+        border: 1px solid #dcdfe6;
+        box-shadow: 0 0 1px #dcdfe6;
        }
     }
     .placeholder {

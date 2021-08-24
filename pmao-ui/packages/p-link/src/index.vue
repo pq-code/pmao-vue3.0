@@ -1,12 +1,12 @@
 <!--head-->
 <template>
-  <a
-      :href="href"
+  <router-link
+      :to="href"
       :target="target"
       :class="['p-link',type]"
   >
     <slot></slot>
-  </a>
+  </router-link>
 </template>
 
 <script>

@@ -12,13 +12,19 @@ export default {
         const ss = function () {
             oPlacHolder.style.display = 'none';
             oIcon.className = 'iconfont icon-arrow-down';
-            oSelectorOption.style.display = 'block'
+            setTimeout(() =>{
+                oSelectorOption.style.display = 'block';
+            },200)
         }
 
         const ssr = function () {
-            oPlacHolder.style.display = 'block';
             oIcon.className = 'iconfont icon-search';
-            oSelectorOption.style.display = 'none'
+            setTimeout(() =>{
+                oSelectorOption.style.display = 'none';
+                if (oInput.value.length === 0 ) {
+                    oPlacHolder.style.display = 'block';
+                }
+            },200)
         }
 
         oInput.addEventListener('focus', function (){

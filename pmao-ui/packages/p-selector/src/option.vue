@@ -4,7 +4,7 @@
       class="option-item"
       v-for="(item,  index) of options"
       :key="index"
-      :value="item.value"
+      @click="setItemValue(item)"
     >
       {{ item.label }}
     </div>
@@ -31,6 +31,15 @@ export default {
       }
 
     }
+  },
+  setup(props, ctx){
+    const setItemValue = (item) =>{
+      ctx.emit('setItemValue',item)
+    }
+
+    return {
+      setItemValue
+    }
   }
 }
 </script>
@@ -53,6 +62,7 @@ export default {
     line-height: 34px;
     font-size: 14px;
     margin: 10px 0;
+    color: #666666;
     transition: background-color .2s linear;
 
   }
