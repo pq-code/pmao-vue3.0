@@ -12,5 +12,8 @@ export default {
 </script>
 
 <style >
-
+.p-header{
+  width: 100%;
+  background-color: #F5F5F7;
+}
 </style>

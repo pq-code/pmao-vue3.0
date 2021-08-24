@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1629382006611') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-all:before {
+  content: "\e6ef";
+}
+
+.icon-component:before {
+  content: "\e6f2";
+}
+
+.icon-copy:before {
+  content: "\e6f3";
+}
+
+.icon-editor:before {
+  content: "\e6f6";
+}
+
+.icon-data:before {
+  content: "\e6f9";
+}
+
+.icon-integral:before {
+  content: "\e6fa";
+}
+
+.icon-nav-list:before {
+  content: "\e6fd";
+}
+
+.icon-pic:before {
+  content: "\e6ff";
+}
+
+.icon-rising:before {
+  content: "\e703";
+}
+
+.icon-favorites-fill:before {
+  content: "\e721";
+}
+
+.icon-play-fill:before {
+  content: "\e72f";
+}
+
+.icon-stop-fill:before {
+  content: "\e738";
+}
+
+.icon-add:before {
+  content: "\e742";
+}
+
+.icon-arrow-right:before {
+  content: "\e743";
+}
+
+.icon-arrow-left:before {
+  content: "\e744";
+}
+
+.icon-arrow-up:before {
+  content: "\e745";
+}
+
+.icon-ashbin:before {
+  content: "\e746";
+}
+
+.icon-attachent:before {
+  content: "\e747";
+}
+
+.icon-category:before {
+  content: "\e748";
+}
+
+.icon-close:before {
+  content: "\e749";
+}
+
+.icon-code:before {
+  content: "\e74a";
+}
+
+.icon-conditions:before {
+  content: "\e74b";
+}
+
+.icon-connections:before {
+  content: "\e74c";
+}
+
+.icon-cut:before {
+  content: "\e74d";
+}
+
+.icon-data1:before {
+  content: "\e74e";
+}
+
+.icon-double-arro-right:before {
+  content: "\e74f";
+}
+
+.icon-double-arrow-left:before {
+  content: "\e750";
+}
+
+.icon-download:before {
+  content: "\e751";
+}
+
+.icon-editor1:before {
+  content: "\e752";
+}
+
+.icon-falling:before {
+  content: "\e753";
+}
+
+.icon-leftarrow:before {
+  content: "\e755";
+}
+
+.icon-integral1:before {
+  content: "\e754";
+}
+
+.icon-link:before {
+  content: "\e756";
+}
+
+.icon-loading:before {
+  content: "\e757";
+}
+
+.icon-map:before {
+  content: "\e758";
+}
+
+.icon-password:before {
+  content: "\e75b";
+}
+
+.icon-Notvisible:before {
+  content: "\e75a";
+}
+
+.icon-operation:before {
+  content: "\e75c";
+}
+
+.icon-packaging:before {
+  content: "\e75d";
+}
+
+.icon-phone:before {
+  content: "\e75e";
+}
+
+.icon-pic1:before {
+  content: "\e75f";
+}
+
+.icon-play:before {
+  content: "\e760";
+}
+
+.icon-logistic-logo:before {
+  content: "\e761";
+}
+
+.icon-product:before {
+  content: "\e762";
+}
+
+.icon-rejected-order:before {
+  content: "\e763";
+}
+
+.icon-resonserate:before {
+  content: "\e764";
+}
+
+.icon-return:before {
+  content: "\e765";
+}
+
+.icon-rising1:before {
+  content: "\e766";
+}
+
+.icon-Rightarrow:before {
+  content: "\e767";
+}
+
+.icon-seleted:before {
+  content: "\e768";
+}
+
+.icon-shuffling-banner:before {
+  content: "\e769";
+}
+
+.icon-sorting:before {
+  content: "\e76a";
+}
+
+.icon-suspended:before {
+  content: "\e76b";
+}
+
+.icon-Top:before {
+  content: "\e76c";
+}
+
+.icon-trust:before {
+  content: "\e76d";
+}
+
+.icon-good-fill:before {
+  content: "\e780";
+}
+
+.icon-account-fill:before {
+  content: "\e7aa";
+}
+
+.icon-add-select:before {
+  content: "\e7b0";
+}
+
+.icon-sami-select:before {
+  content: "\e7b1";
+}
+
+.icon-arrow-down:before {
+  content: "\e7b2";
+}
+
+.icon-account:before {
+  content: "\e7b3";
+}
+
+.icon-cart-Empty:before {
+  content: "\e7b4";
+}
+
+.icon-favorites:before {
+  content: "\e7b5";
+}
+
+.icon-order:before {
+  content: "\e7b6";
+}
+
+.icon-search:before {
+  content: "\e7b7";
+}
+
+.icon-usercenter:before {
+  content: "\e7b8";
+}
+
+.icon-tradingdata:before {
+  content: "\e7b9";
+}
+
+.icon-cangku:before {
+  content: "\e7c1";
+}
+
+.icon-centeralignment:before {
+  content: "\e7cd";
+}
+
+.icon-leftalignment:before {
+  content: "\e7cf";
+}
+
+.icon-rightalignment:before {
+  content: "\e7d1";
+}
+
+.icon-shouqi:before {
+  content: "\e7d3";
+}
+
+.icon-zhankai:before {
+  content: "\e7d4";
+}
+
+.icon-tongxunlu:before {
+  content: "\e7d5";
+}
+
+.icon-inspection:before {
+  content: "\e7dc";
+}
+

@@ -1,33 +1,51 @@
 <template>
-  <pcontainer>
+  <pheader>
     <headlayout></headlayout>
-    <pmain>
-
-    </pmain>
-  </pcontainer>
-
+  </pheader>
+  <pmain>
+    <pselector
+        placeholder="下拉选择"
+        :options="options"
+        @setItemValue="setItemValue"
+    >
+    </pselector>
+  </pmain>
 
 </template>
 
 <script>
-import Plink from "../../../packages/p-link/src";
 import Headlayout from "../../components/headlayout/headlayout";
 export default {
   name: "home",
-  components: {Headlayout},
-  // components: {
-  //   Plink,
-  // },
+  components: { Headlayout},
+  setup(props) {
+    const  options= [{
+      value: '选项1',
+      label: '第一个选项',
+    }, {
+      value: '选项2',
+      label: '第二个选项',
+    }, {
+      value: '选项3',
+      label: '第三个选项',
+    }, {
+      value: '选项4',
+      label: '第四个选项',
+    }, {
+      value: '选项5',
+      label: '第五个选项',
+    },]
+    const setItemValue = (value) => {
+      console.log(value)
+    }
+
+    return {
+      setItemValue,
+      options
+    }
+  }
 }
 </script>
 
 <style>
-.home-title{
-  padding:0px;
-  margin:0 0 0 0;
-  position:fixed;
-  height: 65px;
-  width: 100%;
-  background-color: #5a5a5a;
-}
 </style>

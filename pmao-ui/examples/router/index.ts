@@ -10,7 +10,8 @@ const routes: Array<RouteRecordRaw> = [
       { path: '/home',
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/home/home.vue"), },//默认首页
-    ]
+    ],
+    meta: { hidden: false,title:"首页"}
   },
   // {
   //   path: "/login",
