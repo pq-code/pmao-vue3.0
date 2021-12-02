@@ -51,7 +51,7 @@ export default {
     top: 34px;
     width: 100%;
     height: 224px;
-    border: 1px solid #dcdfe6;
+    border: 1px solid #e5e6ee;
     box-shadow: 0 0 10px #dfdfe5;
     background-color: #F5F5F7;
     cursor: pointer;

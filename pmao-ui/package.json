@@ -1,9 +1,9 @@
 {
   "name": "pmao-ui",
-  "version": "0.1.1",
+  "version": "0.3.1",
   "private": false,
   "description": "Vue3 UI组件库",
-  "author": "Pq",
+  "author": "784312297@qq.com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

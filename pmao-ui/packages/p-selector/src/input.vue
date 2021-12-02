@@ -55,7 +55,7 @@ export default {
       left: 14px;
       font-size: 14px;
       float: none;
-      color: #87898d;
+      color: #9fa2a7;
     }
 
     .iconfont {
@@ -63,7 +63,7 @@ export default {
       left: 80px;
       top: -28px;
       font-size: 22px;
-      color: #707276;
+      color: #9fa2a7;
       &.icon-search {
         font-size: 22px;
         left: 80px;

@@ -18,8 +18,9 @@ import Selectoroption from "./option";
 import focus from '../directives/focus';
 
 import { reactive, toRefs} from "vue";
+
 export default {
-  name: "pselector",
+  name: "p-selector",
   components: {Selectoroption, SelectorInput},
   props: {
     placeholder: String,

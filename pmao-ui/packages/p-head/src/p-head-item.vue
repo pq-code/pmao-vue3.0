@@ -1,6 +1,6 @@
 <template>
   <li
-      :class="['p-head-item',type]"
+    :class="['p-head-item',type]"
   >
     <slot></slot>
   </li>
@@ -8,17 +8,36 @@
 
 <script>
 export default {
-  name: "Pheaditem",
-  componentName: "Pheaditem",
+  name: "p-headitem",
+  props:{
+    placeholder: {
+      type: Number,
+      default: 26,
+    },
+    type: {
+      type: String,
+      default: 'big',
+    }
+  }
 }
 </script>
 
 <style >
 .p-head-item{
-  /*float: left;*/
+  float: left;
   list-style: none;
   background-color: #F5F5F7;
-  line-height:31px;
-  height: 66px;
+  height: 100%;
+  padding: 0 24px;
+  display:inline-block;
+}
+.big {
+  padding: 0 24px;
+}
+.middle{
+  padding: 0 12px;
+}
+.small{
+  padding: 0 6px;
 }
 </style>

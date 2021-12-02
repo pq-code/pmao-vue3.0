@@ -4,6 +4,7 @@
       :to="href"
       :target="target"
       :class="['p-link',type]"
+      :external="external"
   >
     <slot></slot>
   </router-link>
@@ -11,12 +12,21 @@
 
 <script>
 export default {
-  name:"Plink",
-  componentName: "Phead",
+  name:"p-link",
   props:{
-    href: String,
+    href: {
+      type: String,
+      default: '/home',
+    },
     type: String,
     target: String,
+    external: Boolean,
+  },
+  setup(){
+
+    return{
+
+    }
   }
 
 }

@@ -6,8 +6,7 @@
 
 <script>
 export default {
-  name: 'PMain',
-  componentName: 'PMain'
+  name: 'p-main',
 }
 </script>
 

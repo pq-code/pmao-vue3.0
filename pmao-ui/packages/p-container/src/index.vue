@@ -6,8 +6,7 @@
 
 <script>
 export default {
-  name: "Pcontainer",
-  componentName: 'ElContainer',
+  name: "P-container",
 }
 </script>
 

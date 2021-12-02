@@ -6,8 +6,7 @@
 
 <script>
 export default {
-  name: "Pheader",
-  componentName: 'Pheader',
+  name: "P-header",
 }
 </script>
 

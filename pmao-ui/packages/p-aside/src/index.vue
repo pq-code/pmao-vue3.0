@@ -6,9 +6,8 @@
 
 <script>
   export default {
-    name: 'Paside',
+    name: 'P-aside',
 
-    componentName: 'Paside',
 
     props: {
 

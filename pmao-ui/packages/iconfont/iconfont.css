@@ -1,6 +1,8 @@
 @font-face {
-  font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1629382006611') format('truetype');
+  font-family: "iconfont"; /* Project id 2756966 */
+  src: url('iconfont.woff2?t=1637163180105') format('woff2'),
+       url('iconfont.woff?t=1637163180105') format('woff'),
+       url('iconfont.ttf?t=1637163180105') format('truetype');
 }
 
 .iconfont {
@@ -9,6 +11,122 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linecar105:before {
+  content: "\e66c";
+}
+
+.icon-rising1:before {
+  content: "\e766";
+}
+
+.icon-Rightarrow:before {
+  content: "\e767";
+}
+
+.icon-seleted:before {
+  content: "\e768";
+}
+
+.icon-shuffling-banner:before {
+  content: "\e769";
+}
+
+.icon-sorting:before {
+  content: "\e76a";
+}
+
+.icon-suspended:before {
+  content: "\e76b";
+}
+
+.icon-Top:before {
+  content: "\e76c";
+}
+
+.icon-trust:before {
+  content: "\e76d";
+}
+
+.icon-good-fill:before {
+  content: "\e780";
+}
+
+.icon-account-fill:before {
+  content: "\e7aa";
+}
+
+.icon-add-select:before {
+  content: "\e7b0";
+}
+
+.icon-sami-select:before {
+  content: "\e7b1";
+}
+
+.icon-arrow-down:before {
+  content: "\e7b2";
+}
+
+.icon-account:before {
+  content: "\e7b3";
+}
+
+.icon-cart-Empty:before {
+  content: "\e7b4";
+}
+
+.icon-favorites:before {
+  content: "\e7b5";
+}
+
+.icon-order:before {
+  content: "\e7b6";
+}
+
+.icon-search:before {
+  content: "\e7b7";
+}
+
+.icon-usercenter:before {
+  content: "\e7b8";
+}
+
+.icon-tradingdata:before {
+  content: "\e7b9";
+}
+
+.icon-cangku:before {
+  content: "\e7c1";
+}
+
+.icon-centeralignment:before {
+  content: "\e7cd";
+}
+
+.icon-leftalignment:before {
+  content: "\e7cf";
+}
+
+.icon-rightalignment:before {
+  content: "\e7d1";
+}
+
+.icon-shouqi:before {
+  content: "\e7d3";
+}
+
+.icon-zhankai:before {
+  content: "\e7d4";
+}
+
+.icon-tongxunlu:before {
+  content: "\e7d5";
+}
+
+.icon-inspection:before {
+  content: "\e7dc";
 }
 
 .icon-all:before {
@@ -197,117 +315,5 @@
 
 .icon-return:before {
   content: "\e765";
-}
-
-.icon-rising1:before {
-  content: "\e766";
-}
-
-.icon-Rightarrow:before {
-  content: "\e767";
-}
-
-.icon-seleted:before {
-  content: "\e768";
-}
-
-.icon-shuffling-banner:before {
-  content: "\e769";
-}
-
-.icon-sorting:before {
-  content: "\e76a";
-}
-
-.icon-suspended:before {
-  content: "\e76b";
-}
-
-.icon-Top:before {
-  content: "\e76c";
-}
-
-.icon-trust:before {
-  content: "\e76d";
-}
-
-.icon-good-fill:before {
-  content: "\e780";
-}
-
-.icon-account-fill:before {
-  content: "\e7aa";
-}
-
-.icon-add-select:before {
-  content: "\e7b0";
-}
-
-.icon-sami-select:before {
-  content: "\e7b1";
-}
-
-.icon-arrow-down:before {
-  content: "\e7b2";
-}
-
-.icon-account:before {
-  content: "\e7b3";
-}
-
-.icon-cart-Empty:before {
-  content: "\e7b4";
-}
-
-.icon-favorites:before {
-  content: "\e7b5";
-}
-
-.icon-order:before {
-  content: "\e7b6";
-}
-
-.icon-search:before {
-  content: "\e7b7";
-}
-
-.icon-usercenter:before {
-  content: "\e7b8";
-}
-
-.icon-tradingdata:before {
-  content: "\e7b9";
-}
-
-.icon-cangku:before {
-  content: "\e7c1";
-}
-
-.icon-centeralignment:before {
-  content: "\e7cd";
-}
-
-.icon-leftalignment:before {
-  content: "\e7cf";
-}
-
-.icon-rightalignment:before {
-  content: "\e7d1";
-}
-
-.icon-shouqi:before {
-  content: "\e7d3";
-}
-
-.icon-zhankai:before {
-  content: "\e7d4";
-}
-
-.icon-tongxunlu:before {
-  content: "\e7d5";
-}
-
-.icon-inspection:before {
-  content: "\e7dc";
 }
 

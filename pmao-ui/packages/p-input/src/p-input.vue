@@ -14,7 +14,7 @@
 import {onMounted, refs} from "vue";
 
 export default {
-  name: "pinput",
+  name: "p-input",
   data() {
     return {
       input: ''
